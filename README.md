@@ -1,101 +1,62 @@
-# **FILE-HANDLING UTILITY**
+# File Handling Utility
 
-**Company Name:** CODTECH IT SOLUTIONS PVT. LTD  
-**Student Name:** Nimish Sadhu  
+## Company  
+**CODTECH IT SOLUTIONS PVT. LTD**
+
+## Intern Details  
+**Name:** Nimish Sadhu  
 **Intern ID:** CT08DK421  
-**Domain Name:** Java Programming  
+**Domain:** Java Programming  
 **Batch Duration:** April 20th, 2025 – June 20th, 2025  
-**Mentor Name:** Neela Santhosh Kumar  
+**Mentor:** Neela Santhosh Kumar  
 
----
+## Internship Task 1 – File Handling Utility (Java)
 
-## 📝 Internship Task 1 – File Handling Utility (Java)
+### About the Task  
+This project was completed as part of my Java development internship. It focuses on implementing core file handling operations using Java. The goal was to build a simple command-line utility that allows users to perform basic file operations such as writing content to a file, reading from a file, and appending content to an existing file. The program offers a basic menu-based interface prompting users to select their desired operation and enter the necessary input.
 
-### 📌 About the Task
+This task helped me gain a solid understanding of Java file I/O using classes like `FileWriter`, `FileReader`, `BufferedReader`, along with proper exception handling. I learned how to safely interact with files locally, manage text content, and structure user-friendly, error-resilient Java programs.
 
-This project was completed as part of my Java development internship and focuses on implementing core **file handling** operations using the Java programming language. The objective was to create a simple command-line utility for performing essential file operations such as:
+### Tools & Resources Used  
+- **IDE:** IntelliJ IDEA — Provided syntax highlighting, error detection, and an integrated terminal for compiling and running Java programs.  
+- **ChatGPT:** Assisted in program structure, understanding file handling methods, writing clean and documented code, and clarifying conceptual doubts.  
+- **Google Search:** Used extensively to consult official Java docs, troubleshoot exceptions, and find code examples from platforms like GeeksforGeeks and Stack Overflow.  
+- **YouTube:** Watched tutorials from Telusko, CodeWithHarry, and freeCodeCamp to reinforce concepts of file handling and Java fundamentals.  
 
-- Writing content to a file  
-- Reading from a file  
-- Modifying (appending to) the contents of an existing file  
+### Features Implemented  
+- **Write to a File:** Overwrites existing files or creates new files with user-provided content.  
+- **Read from a File:** Displays file contents line-by-line on the console.  
+- **Modify a File:** Appends new content without overwriting existing data.  
+- **Error Handling:** Gracefully manages exceptions such as `FileNotFoundException` and `IOException` to prevent crashes.  
 
-The program features a basic menu-driven interface that prompts users to select an operation and input necessary details.
+### How It Works  
+Upon running the program, the user:  
+1. Enters the file name (e.g., `data.txt`).  
+2. Selects an operation from the menu:  
+   - `1` for Write  
+   - `2` for Read  
+   - `3` for Append  
+3. Provides the text input when prompted.  
 
-The task emphasized understanding Java’s file I/O (Input/Output) mechanisms through the use of:
+The program executes the chosen operation and confirms success, providing a simple and intuitive experience for beginners.
 
-- `FileWriter`
-- `FileReader`
-- `BufferedReader`
-- Exception handling (`try-catch` blocks)
+### Real-World Applications  
+Although simple, this utility is relevant for:  
+- Creating log files for applications  
+- Saving user inputs or configuration data  
+- Developing data import/export tools  
+- Automating text file processing  
+- Building basic text-based databases or records  
 
-This hands-on project enhanced my ability to work with files in Java, manage text content, and design user-friendly, error-resilient applications.
+It also lays a foundation for advanced topics like serialization, streaming, file encryption, and working with CSV or JSON in Java.
 
----
+### Conclusion  
+This internship task strengthened my knowledge of Java’s file handling capabilities while emphasizing clean code and user interaction. It provided practical experience with Java’s standard I/O libraries and improved my debugging, exception handling, and file manipulation skills.
 
-### ⚙️ Tools & Resources Used
+The project was developed using IntelliJ IDEA and supported by online resources including Google, ChatGPT, and YouTube. This task marks a meaningful step toward becoming a proficient backend and full-stack Java developer.
 
-- **IntelliJ IDEA** – Primary IDE used for development. It provided helpful features such as syntax highlighting, error detection, and an integrated terminal.  
-- **ChatGPT** – Assisted with code structuring, Java file I/O concepts, documentation, and debugging tips.  
-- **Google Search** – Used for accessing Java documentation and community forums like Stack Overflow.  
-- **YouTube** – Tutorials from Telusko, CodeWithHarry, and freeCodeCamp helped reinforce Java fundamentals.
 
----
-
-### 🚀 Features Implemented
-
-- **Write to a File**  
-  Overwrites an existing file or creates a new one with user-provided content.
-
-- **Read from a File**  
-  Displays file contents line-by-line on the console.
-
-- **Modify a File**  
-  Appends user input to the existing content without overwriting.
-
-- **Error Handling**  
-  Gracefully handles exceptions such as `FileNotFoundException` and `IOException` to ensure stability.
-
----
-
-### 🛠️ How It Works
-
-1. The user is prompted to enter a **file name** (e.g., `data.txt`).  
-2. A menu is displayed for operation selection:
-   - `1` – Write  
-   - `2` – Read  
-   - `3` – Append  
-3. Based on the selection, the program:
-   - Accepts input (for write/append)
-   - Reads and displays contents (for read)
-4. Confirms successful completion of the operation.
-
-The program is user-friendly, menu-driven, and ideal for beginners.
-
----
-
-### 🌍 Real-World Applications
-
-Though simple, this **file handling** tool has practical relevance, including:
-
-- Logging application events  
-- Storing configuration or user input  
-- Automating data processing tasks  
-- Basic data export/import  
-- Maintaining text-based records or logs
-
-It lays the groundwork for more advanced topics like file serialization, working with CSV/JSON, and secure file operations.
-
----
-
-### ✅ Conclusion
-
-This internship task strengthened my understanding of Java’s **file handling** features and helped me apply best practices in coding, debugging, and user interaction. It was developed using IntelliJ IDEA and supported by research from ChatGPT, Google, and YouTube.
-
-The project is a foundational step toward becoming a proficient Java backend or full-stack developer.
-
----
-
-### 📂 OUTPUT
+###  OUTPUT
 ![Screenshot 2025-06-18 132507](https://github.com/user-attachments/assets/553bd6c3-37c1-4711-ae8e-6b752127a87b)
 ![Screenshot 2025-06-18 132621](https://github.com/user-attachments/assets/b538f53c-dd9a-4739-8ed5-73a3fb0271b3)
 ![Screenshot 2025-06-18 132729](https://github.com/user-attachments/assets/950ced6d-763b-446a-9489-a8a56d0bf2a0)
